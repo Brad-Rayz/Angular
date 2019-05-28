@@ -1,0 +1,27 @@
+<!-- <div>
+  <div *ngFor="let item of productList">
+    {{ item.title }}
+  </div>
+</div>
+
+popularity: "2579" price: "12179" subcategory: "mobile" title: "Apple iPhone 3GS
+16GB" -->
+<div>
+  <input type="text" (keyup)="filter()" [(ngModel)]="Filtername" >
+</div>
+<div class="table">
+  <div class="tablerowhead">
+    <div class="tablecola">Sr. No.</div>
+    <div class="tablecol">Title</div>
+    <div class="tablecol">subcategory</div>
+    <div class="tablecol">price</div>
+  </div>
+  <div class="tablerow" *ngFor="let item of ProductListFiltered; let i = index">
+    <div class="tablecola">{{ i + 1 }}</div>
+    <div class="tablecol">{{ item.title }}</div>
+    <div class="tablecol">{{ item.subcategory }}</div>
+    <div class="tablecol">{{ item.price }}</div>
+  </div>
+</div>
+
+

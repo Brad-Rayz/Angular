@@ -1,0 +1,99 @@
+.table {
+  display: table;
+  width: auto;
+  border-spacing: 5px; /* cellspacing:poor IE support for  this */
+  border: 1px solid black;
+}
+.tablerow {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+.tablecol {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 150px;
+}
+.tablecola {
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    width: 50px;
+}
+.tablecolmail {
+  float: left;
+  display: table-column;
+  width: 200px;
+}
+
+.tableform {
+  display: table;
+  width: auto;
+  border-spacing: 5px;
+}
+.tablerowform {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+.tablerowhead {
+  display: table-row;
+  width: auto;
+  clear: both;
+  border: 1px solid black;
+}
+.tablecolForm {
+  float: left;
+  display: table-column;
+  width: 300px;
+}
+
+/* input {
+  border-radius: 37.5px;
+  background-color: lightgrey;
+  height: 52px;
+  width: 250px;
+} */
+
+select {
+  border-radius: 37.5px;
+  background-color: lightgrey;
+  height: 52px;
+  width: 276px;
+}
+
+button {
+  background-color: #ff364a;
+  border-radius: 37.5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 172px;
+  height: 52px;
+}
+
+.button {
+  background-color: #d8d8d8;
+  border-radius: 37.5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 78px;
+  height: 32px;
+  color: black;
+}
+
+.buttondel {
+  background-color: #db0808;
+  border-radius: 37.5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 78px;
+  height: 32px;
+}

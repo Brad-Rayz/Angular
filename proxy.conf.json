@@ -1,0 +1,7 @@
+{
+  "/": {
+    "target": "https://",
+    "secure": false,
+    "changeOrigin": true
+  }
+}
